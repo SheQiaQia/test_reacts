@@ -7,7 +7,7 @@
 	height: 50px;
 	background-color: black;
 }
-.head_ul{
+.head ul{
 	width: 80%;
 	float: left;
 	margin-left: 10%;
@@ -17,7 +17,14 @@
 	color: white;
 	list-style: none;
 }
-.head_ul li{
+.head ul li{
 	width: 25%;
 	float: left;
+	list-style: none;
+	
+}
+.head ul li a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
 }
